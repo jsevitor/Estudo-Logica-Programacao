@@ -1,0 +1,114 @@
+FOLHA DE PAGAMENTO
+
+Entradas
+- salario minimo
+- numero de horas trabalhadas
+- numero de dependentes
+- horas extras
+
+Var
+sal_min, hrs_trab, hrs_ext, val_hrs, sal_bru, sal_liq, imp_ren: real
+val_dep, hrs_ext_val, hrs_ext_tot 
+dep: inteiro
+
+Processamento e Saida
+- calcular imposto de renda retido na fonte - OK (azul)
+- valor da hora trabalhada = 1/5 do salario mınimo
+- calcular o salario do mes = horas trabalhadas * hora trabalhada - OK (amarelo)
+- cada dependente = R$ 32,00 - OK (laranja)
+- calcular o valor da hora extra trabalhada acrescida de 50% - OK (roxo)
+- caluclar salario bruto = salario do mes + dependentes + horas extras - OK (vermelho)
+- salario liquido = salario bruto - IRRF - OK (azul)
+- gratificação - OK (cinza claro)
+- salario a receber = salario lıquido + gratificação - OK (cinza)
+
+------------------------------------------------------------------------------------------
+RESOLUÇÃO:
+
+ sal_min = 500
+ hrs_trab = 120
+ dep = 2
+ hrs_ext = 10
+
+------------------------------------------------------------------------------------------
+val_hrs = 100
+sal_mes = 12000
+dep_tot = 2 * 32 = 64
+hrs_ext = 10 * 0.5 = 5
+hrs_ext_tot = 50
+sal_brut = 12000 + 64 + 50 = 12114
+imp_ren = 12114 * 0.2 = 2422,8
+sal_liq = 12114 - 2422,8 = 9691,2
+sal_rec = 9691,2 + 50 = 9741,2
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+QUESTÃO 03 - TRANSPORTADORA
+
+Entradas
+- peso da carga em toneladas
+- codigo do estado de origem
+- codigo da carga
+
+Variaveis
+- cod_est, cod_carg: inteiro
+- pes_carg, pes_carg_kg, prec_carg, prec_kg, imp, val_imp, val_tot: real
+
+Processamento e Saidas
+- calcular peso da carga em Kg
+- calcular o preço da carga
+- calcular o valor do imposto sobre o preço da carga
+- calcular o valor total transportado
+- advertir sobre codigos invalidos
+
+------------------------------------------------------------------------------------------
+RESOLUÇÃO
+
+ pes_carg = 12 (ton)
+ cod_est = 2
+ cod_carg = 30
+
+------------------------------------------------------------------------------------------
+
+//conversão do peso da carga de ton para kg
+pes_carg_kg <- pes_carg * 1000 = 12 * 1000 = 12000
+
+//preço da carga
+cod_carg = 30
+prec_kg = 250 
+prec_carg <- pes_carg_kg * prec_kg = 12000 * 250 = 3000000
+
+//valor do imposto
+cod_est = 2
+imp = 25% = 0.25 
+val_imp <- prec_carg * imp = 3000000 * 0.25 = 750000
+ 
+//valor total transportado
+val_tot <- prec_carg + val_imp = 3000000 + 750000 = 3.750.000     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
