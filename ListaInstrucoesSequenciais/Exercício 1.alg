@@ -1,8 +1,8 @@
 algoritmo "Exercicio 01"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 11/05/2022
-// Seção de Declarações 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es 
 var
    x, f ,g : real
 inicio
