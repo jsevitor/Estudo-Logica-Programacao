@@ -1,8 +1,19 @@
-algoritmo "Exercicio 8"
-// Função :
-// Autor :
+algoritmo "Exercicio 9"
+// =====================================================================
+// Assunto : Comandos de Iteração
+// Função : Modifique o algoritmo da questao 8 para que seja mostrado
+//          na tela uma tabela onde:
+//            * na coluna da esquerda apresente os valores de 1 a 100
+//            * na coluna da direita, apresente um sinal graafico, de
+//              acordo com as seguintes regras:
+//                - ”2”: quando o valor a esquerda e multiplo de 2
+//                – ”5”: quanto o valor a esquerda e multiplo de 5
+//                – ”p”: quando o valor a esquerda e um numero primo
+// Obs: considere que um ou mais sinais gr´aficos podem ocorrer na
+//      mesma linha da tabela.
+// Autor : José Vitor Oliveira Reis
 // Data : 13/05/2022
-// Seção de Declarações 
+// =====================================================================
 var
    i, valor, divisores: inteiro
 inicio

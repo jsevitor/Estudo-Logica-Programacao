@@ -1,8 +1,13 @@
 algoritmo "Exercicio 7"
-// Função :
-// Autor :
-// Data : 13/05/2022
-// Seção de Declarações 
+// =====================================================================
+// Assunto : Comandos de Iteração
+// Função : Faca um algoritmo que determine o maior valor dentre N
+//          numeros. A condi¸c˜ao de parada ´e a entrada de um valor 0,
+//          ou seja, o algoritmo deve processar o maior ate que a
+//          entrada seja igual a 0 (ZERO).
+// Autor : José Vitor Oliveira Reis
+// Data : 11/05/2022
+// =====================================================================
 var
    i: inteiro
    N, maior: inteiro

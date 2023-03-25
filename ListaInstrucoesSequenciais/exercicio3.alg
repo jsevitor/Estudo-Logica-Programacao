@@ -1,11 +1,18 @@
 algoritmo "Exercicio 3"
-// Função :
-// Autor :
+// =====================================================================
+// Assunto : Comandos de Iteração
+// Função : Escreva um algoritmo que leia um conjunto indeterminado de
+//          valores e mostre, para cada valor lido, as seguintes
+//          informações calculadas. As leituras devem ser finalizadas
+//          quando o usuario digitar um valor nulo ou negativo.
+//           * seu quadrado  * seu cubo  * sua raiz quadrada
+// Autor : José Vitor Oliveira Reis
 // Data : 12/05/2022
-// Seção de Declarações 
+// =====================================================================
 var
    x, i : inteiro
    Q, C, R : real
+   
 inicio
    i <- 1
    enquanto (i <> 0) faca

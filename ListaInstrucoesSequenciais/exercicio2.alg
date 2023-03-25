@@ -1,8 +1,11 @@
 algoritmo "Exercicio 02"
-// Função :
-// Autor :
+// =====================================================================
+// Assunto : Comandos de Iteração
+// Função : Escreva um algoritmo para gerar os N primeiros termos da
+//          sequencia.
+// Autor : José Vitor Oliveira Reis
 // Data : 12/05/2022
-// Seção de Declarações 
+// =====================================================================
 var
    v1, v2, v3 : inteiro
    i, N : inteiro

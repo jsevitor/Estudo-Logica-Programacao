@@ -1,8 +1,10 @@
 algoritmo "Exercicio 01"
-// FunÃ§Ã£o :
-// Autor :
+// =====================================================================
+// Assunto : Comandos de Iteração
+// Função : Escreva um algoritmo que gera uma tabela.
+// Autor : José Vitor Oliveira Reis
 // Data : 11/05/2022
-// Seï¿½ï¿½o de Declaraï¿½ï¿½es 
+// =====================================================================
 var
    x, f ,g : real
 inicio

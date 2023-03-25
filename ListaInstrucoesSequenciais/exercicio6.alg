@@ -1,8 +1,15 @@
 algoritmo "Exercício 6"
-// Função :
-// Autor :
+// =====================================================================
+// Assunto : Comandos de Iteração
+// Função : Modifique o algoritmo da questso anterior para ler uma
+//          quantidade indeterminada de entradas, contendo cada uma a
+//          altura e o sexo de uma pessoa e, como saida, o calculo do
+//          peso ideal conforme o sexo informado. As leituras devem ser
+//          finalizadas quando o usu´ario informar que deseja encerrar
+//          o algoritmo.
+// Autor : José Vitor Oliveira Reis
 // Data : 12/05/2022
-// Seção de Declarações 
+// =====================================================================
 var
    sexo, i, op: caractere
    h, peso: real

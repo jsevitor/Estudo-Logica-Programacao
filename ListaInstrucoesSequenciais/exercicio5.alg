@@ -1,8 +1,14 @@
 algoritmo "Exercício 5"
-// Função :
-// Autor :
+// =====================================================================
+// Assunto : Comandos de Iteração
+// Função : Tendo como dados de entrada a altura e o sexo de uma pessoa,
+//          construa um algoritmo em pseudocodigo que calcule seu peso
+//          idela, utilizando as seguintes forrmulas, onde h equivale a
+//          altura da pessoa: *Para homens: (72.7 * h) + 58
+//                            *Para mulheres: (62.1 * h) + 44.7
+// Autor : José Vitor Oliveira Reis
 // Data : 12/05/2022
-// Seção de Declarações 
+// =====================================================================
 var
    sexo: caractere
    h, peso: real
